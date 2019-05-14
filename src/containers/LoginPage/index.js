@@ -54,7 +54,7 @@ class LoginPage extends Component {
         return (
             <div className="center-page container">
                 <div className="row justify-content-center">
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <form className="card">
                             <div className="card-header text-center">
                                 <label>Авторизация</label>
@@ -73,7 +73,7 @@ class LoginPage extends Component {
                             {(this.state.isLoading) ? <div className="spinnerDanger"> <SpinnerDanger /> </div> : null}
                             <div className="card-footer text-center">
                                 <button
-                                    className="btn btn-outline-primary col-md-6"
+                                    className="btn btn-outline-success col-md-6"
                                     onClick={this.btnLogin}>Войти
                                 </button>
                             </div>
